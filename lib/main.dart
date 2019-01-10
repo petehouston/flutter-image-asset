@@ -30,6 +30,8 @@ class HomePage extends StatelessWidget {
             Text('Load image from assets', style: TextStyle(fontSize: 18.0),),
             Padding(padding: EdgeInsets.only(bottom: 18.0),),
             Image.asset('assets/images/petehouston.png'),
+            Padding(padding: EdgeInsets.only(bottom: 18.0),),
+            Text('Checkout tutorial at: https://fluttermaster.com/load-image-from-assets-in-flutter/', style: TextStyle(fontSize: 18.0),)
           ],
         ),
       ),
